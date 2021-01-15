@@ -6,38 +6,89 @@ p {
     font-size: 16px;
     color: #3E3E3E;
 }
+h1 {
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 5em;
+line-height: 1em;
+}
+h2 {
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 3em;
+line-height: 80px;
+color: #363958;
+}
+h3 {
+font-family: Bebas Neue;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 48px;
+color: #363958;
+}
+h4 {
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 42px;
+color: #FABE4C;
+}
+h5{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 28px;
+
+color: #363958;
+}
 /* global values end */
 /* header design start */
 header, .menu {
     background-color: #FFFBF0;
 }
-.menu-image img {
-    width: 50%;
+.menu-img img{
+    width: 200px;
 }
 .banner-img img {
     width: 100%;
 }
 .banner-text-partone {
-font-family: Bebas Neue;
-font-style: normal;
-font-weight: bold;
-font-size: 5em;
-line-height: 80px;
 color: #FABE4C;
 }
 .banner-text-parttwo {
-    font-family: Bebas Neue;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 5em;
-    line-height: 80px;
     color: #363958;
-    }
+}
 .banner p {
     width: 70%;
 }
+.button-design {
+    background-color: #98B134;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 16px 25px;
+    border-radius: 10px;
+}
 /* header design end */
 
-/* media query start */
+/* Jacket section start */
+.jacket .jacket-card{
+    border: 0px;
+    padding: 5px;
+}
+.jacket-card img {
+    background-color: #F1F1F1;
+    border:0px;
+    border-radius: 30px;
+}
 
-/* media query end */
+.btn-text {
+    border: 0px;
+    background-color: #fff;
+}
+/* Jacket section end */
